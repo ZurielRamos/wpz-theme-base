@@ -1,5 +1,5 @@
 {
-	"name": "zurielramos/wpz-theme-base",
+	"name": "mktautomation/stg-theme-base",
 	"description": "A starter theme for modern WordPress developers.",
 	"type": "wordpress-theme",
 	"license": "GPL-3.0",
@@ -8,11 +8,11 @@
 		"wordpress",
 		"theme"
 	],
-	"homepage": "https://github.com/ZurielRamos/wpz-theme-base",
+	"homepage": "https://bitbucket.org/mktautomation/stg-theme-base",
 	"authors": [
 		{
 			"name": "Contributors",
-			"homepage": "https://github.com/ZurielRamos/wpz-theme-base/graphs/contributors"
+			"homepage": "https://bitbucket.org/mktautomation/stg-theme-base/graphs/contributors"
 		}
 	],
 	"require-dev": {
@@ -38,7 +38,7 @@
 		"post-update-cmd": "@phpcs-config-set"
 	},
 	"support": {
-		"issues": "https://github.com/ZurielRamos/wpz-theme-base/issues",
-		"source": "https://github.com/ZurielRamos/wpz-theme-base"
+		"issues": "https://bitbucket.org/mktautomation/stg-theme-base/issues",
+		"source": "https://bitbucket.org/mktautomation/stg-theme-base"
 	}
 }

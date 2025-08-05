@@ -1,5 +1,5 @@
 {
-	"name": "wpz-theme-base",
+	"name": "stg-theme-base",
 	"version": "0.0.2",
 	"description": "A starter theme for modern WordPress developers.",
 	"author": "Zuriel Ramos",
@@ -9,13 +9,13 @@
 		"starter",
 		"theme"
 	],
-	"homepage": "https://github.com/ZurielRamos/wpz-theme-base#readme",
+	"homepage": "https://bitbucket.org/mktautomation/stg-theme-base#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ZurielRamos/wpz-theme-base.git"
+		"url": "git+https://bitbucket.org/mktautomation/stg-theme-base.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ZurielRamos/wpz-theme-base/issues"
+		"url": "https://bitbucket.org/mktautomation/stg-theme-base/issues"
 	},
 	"main": "index.js",
 	"devDependencies": {
@@ -26,8 +26,8 @@
 	},
 	"scripts": {
 		"build": "wp-scripts build --config ./bin/webpack.config.js --webpack-src-dir=src/blocks",
-		"create-block": "cd ./src/blocks && npx @wordpress/create-block --namespace=wpz-theme-base --no-plugin",
-		"create-block:dynamic": "cd ./src/blocks && npx @wordpress/create-block --namespace=wpz-theme-base --no-plugin --variant=dynamic",
+		"create-block": "cd ./src/blocks && npx @wordpress/create-block --namespace=stg-theme-base --no-plugin",
+		"create-block:dynamic": "cd ./src/blocks && npx @wordpress/create-block --namespace=stg-theme-base --no-plugin --variant=dynamic",
 		"start": "wp-scripts start --config ./bin/webpack.config.js --webpack-src-dir=src/blocks"
 	}
 }
